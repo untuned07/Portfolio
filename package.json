@@ -1,0 +1,31 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm i && vite build && npm install three",
+    "start": "vite server",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "three": "^0.143.0"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forneus07/heroku-hosting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Forneus07/heroku-hosting/issues"
+  },
+  "homepage": "https://github.com/Forneus07/heroku-hosting#readme",
+  "description": ""
+}
